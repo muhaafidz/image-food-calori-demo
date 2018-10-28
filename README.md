@@ -8,7 +8,7 @@ PREREQUISITE:
 1. 	Install required software:
 	
 		-XAMPP (or any tools to do localhost)
-		-install python 3.6.1 64 bit. (3.7,3.60 doesn't work)
+		-Python 3.6.1 64 bit. (3.7,3.6.0 doesn't work with Tensorflow)
 		-LightShot (*Optional: good snipping tool alternative to save Google Image in lazy way. Make sure save the image in jpg format)
 		-Microsoft Visual C++ 2015 Redistributable Update 3 (install if required step in PREREQUISITE doesn't work)
 
@@ -48,7 +48,6 @@ PREPARE THE PROJECT (Using XAMPP):
 		
 		http://localhost/image-food-calori-demo-master/
 	
-  
 TRAIN THE IMAGE: 
 
 1. 	Download a collection of images at any source.
