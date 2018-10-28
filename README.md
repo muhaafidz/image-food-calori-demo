@@ -1,6 +1,7 @@
 # image-food-calori-demo
 This project is entirely based on AxelAli project. But there are still things that need to change and requires a lot of time to configure it in order to run it successfully. So, I recreate his project for making the process simpler. Original source:
 
+	https://github.com/AxelAli/Tensorflow-Image-Classifier-Web-Demo
 	https://github.com/AxelAli/Tensorflow-Image-Classification
 
 PREREQUISITE:
@@ -41,7 +42,7 @@ PREPARE THE PROJECT (Using XAMPP):
 
 2.	save the project in XAMPP httdocs directory. Eg:
 
-		C:\xampp\htdocs\<the project folder>
+		C:\xampp\htdocs\image-food-calori-demo-master
 
 3.	Run the website through localhost. (The prediction won't worked since there is no trained model yet in the project folder)
 		
@@ -57,7 +58,7 @@ TRAIN THE IMAGE:
 	
 2.	locate tensorflow folder location in CMD. eg:
       
-		cd C:\xampp\htdocs\<your project folder>\tensorflow
+		cd C:\xampp\htdocs\image-food-calori-demo-master\tensorflow
 	
 	  retrain the image by executing this command using CMD:
 	    
