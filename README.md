@@ -31,6 +31,8 @@ PREREQUISITE:
 	*If didn't work, locate the python directory and install appropriate version of tensorflow whl using CMD:
 	
 		cd C:\Users\<your pc name>\AppData\Local\Programs\Python\Python36
+		or
+		cd C:\Python36  *depend on your python directory
 		pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl
 
 4.	Download the entire project in this github.
