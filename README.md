@@ -44,7 +44,7 @@ PREPARE THE PROJECT (Using XAMPP):
 
 		C:\xampp\htdocs\image-food-calori-demo-master
 
-3.	Run the website through localhost. (The prediction won't worked since there is no trained model yet in the project folder)
+3.	Run the website through localhost. (The prediction won't work yet since there is no trained model in the project folder)
 		
 		http://localhost/image-food-calori-demo-master/
 	
@@ -60,10 +60,11 @@ TRAIN THE IMAGE:
       
 		cd C:\xampp\htdocs\image-food-calori-demo-master\tensorflow
 	
-	  retrain the image by executing this command using CMD:
+	Train the image by executing this command using CMD:
 	    
 		python retrain.py --bottleneck_dir=./output/bottlenecks --how_many_training_steps 300  --model_dir=./output/inception --output_graph=./output/retrained_graph.pb --output_labels=./output/retrained_labels.txt --image_dir ./data/
 
+	If it is successfull, the retrained_graph.pb file is created in output folder. This file is the model that is eesential to do image prediction.
 	
 TEST THE WEBSITE:
 
