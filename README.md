@@ -8,7 +8,7 @@ PREREQUISITE:
 	
 		-XAMPP (or any tools to do localhost)
 		-install python 3.6.1 64 bit. (3.7,3.60 doesn't work)
-		-LightShot (*Optional: good snipping tool alternative to save Google Image in lazy way. Make sure save the image in jpg format.)
+		-LightShot (*Optional: good snipping tool alternative to save Google Image in lazy way. Make sure save the image in jpg format)
 		-Microsoft Visual C++ 2015 Redistributable Update 3 (install if required step in PREREQUISITE doesn't work)
 
 2.	Run cmd command:
@@ -24,17 +24,16 @@ PREREQUISITE:
 		pip install ipykernel
 		pip install tensorflow_hub)
 	
-3.	Test the tensorflow whether it is work using cmd:
+3.	Test the tensorflow whether it is work using cmd. If it display the tensorflow version, it means the prerequisite is done:
 		
-		  python -c "import tensorflow as tf; print(tf.VERSION)"
+		python -c "import tensorflow as tf; print(tf.VERSION)"
 	
 	*If didn't work, locate the python directory and install appropriate version of tensorflow whl using CMD:
 	
-		  cd C:\Users\<your pc name>\AppData\Local\Programs\Python\Python36
-		  pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl
+		cd C:\Users\<your pc name>\AppData\Local\Programs\Python\Python36
+		pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl
 
-4.	Download this whole project:
-		  https://github.com/muhaafidz/image-food-calori-demo
+4.	Download the entire project in this github.
 		
 5.	Run the website through localhost. (The prediction won't worked since there is no trained model yet in the project folder)
 	
