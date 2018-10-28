@@ -18,12 +18,6 @@ PREREQUISITE:
 		pip install tensorflow --upgrade
 		pip install image
 	
-	
-	*Additional command if doesn't work:
-	
-		pip install ipykernel
-		pip install tensorflow_hub)
-	
 3.	Test the tensorflow whether it is work using cmd. If it display the tensorflow version, it means the prerequisite is done:
 		
 		python -c "import tensorflow as tf; print(tf.VERSION)"
@@ -31,13 +25,27 @@ PREREQUISITE:
 	*If didn't work, locate the python directory and install appropriate version of tensorflow whl using CMD:
 	
 		cd C:\Users\<your pc name>\AppData\Local\Programs\Python\Python36
-		or
+		                       or
 		cd C:\Python36  *depend on your python directory
-		pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl
-
-4.	Download the entire project in this github.
 		
-5.	Run the website through localhost. (The prediction won't worked since there is no trained model yet in the project folder)
+		pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl
+	
+	*Additional command if doesn't work:
+	
+		pip install ipykernel
+		pip install tensorflow_hub
+
+PREPARE THE PROJECT (Using XAMPP):
+
+1.	Download the entire project from this github.
+
+2.	save the project in XAMPP httdocs directory. Eg:
+
+		C:\xampp\htdocs\<the project folder>
+
+3.	Run the website through localhost. (The prediction won't worked since there is no trained model yet in the project folder)
+		
+		http://localhost/image-food-calori-demo-master/
 	
   
 TRAIN THE IMAGE: 
@@ -59,5 +67,7 @@ TRAIN THE IMAGE:
 TEST THE WEBSITE:
 
 1.	Open the website through localhost.
+
+		http://localhost/image-food-calori-demo-master/
 
 2.	Try to upload some image. Enjoy!
