@@ -40,7 +40,7 @@ PREPARE THE PROJECT (Using XAMPP):
 
 1.	Download the entire project from this github.
 
-2.	save the project in XAMPP httdocs directory. Eg:
+2.	Save the project in XAMPP httdocs directory. Eg:
 
 		C:\xampp\htdocs\image-food-calori-demo-master
 
@@ -56,7 +56,7 @@ TRAIN THE IMAGE:
    	*Make sure that save it in jpg format. And each of image group need to have at least 21 images and above.
     	*You also can create a new folder to add a new image group.
 	
-2.	locate tensorflow folder location in CMD. eg:
+2.	"ocate tensorflow folder location in CMD. eg:
       
 		cd C:\xampp\htdocs\image-food-calori-demo-master\tensorflow
 	
