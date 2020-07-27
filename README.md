@@ -1,5 +1,7 @@
 # image-food-calori-demo
-This project is entirely based on AxelAli project. But there are still things that need to change and requires a lot of time to configure it in order to run it successfully. So, I recreate his project for making the process simpler. Original source:
+This project is entirely based on AxelAli project. But there are still things that need to change and requires a lot of time to configure it in order to run it successfully. So, I recreate his project for making the process simpler.
+* NOTE: I use Windows environment for running this project. You may need to change all paths into UNIX style if you are using Linux or Mac.
+Original source:
 
 	https://github.com/AxelAli/Tensorflow-Image-Classifier-Web-Demo
 	https://github.com/AxelAli/Tensorflow-Image-Classification
